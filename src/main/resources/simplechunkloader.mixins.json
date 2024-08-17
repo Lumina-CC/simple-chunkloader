@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "re.zarex.simplechunkloader.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MinecraftServerMixin",
+    "ThreadedAnvilChunkStorageMixin",
+    "MobSpawnerLogicMixin",
+    "MobEntityMixin",
+    "ServerWorldMixin",
+    "SpawnDensityCapperMixin",
+    "SpawnHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
