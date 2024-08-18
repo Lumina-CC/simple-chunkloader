@@ -6,11 +6,7 @@
   "mixins": [
     "MinecraftServerMixin",
     "ThreadedAnvilChunkStorageMixin",
-    "MobSpawnerLogicMixin",
-    "MobEntityMixin",
-    "ServerWorldMixin",
-    "SpawnDensityCapperMixin",
-    "SpawnHelperMixin"
+    "ServerWorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1
